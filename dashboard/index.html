@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord - Rover C-0802</title>
+    <link rel="stylesheet" href="/dashboard/style.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>ROVER C-0802</h1>
+            <nav>
+                <button class="nav-btn">Dashboard</button>
+                <button class="nav-btn">Missions</button>
+                <button class="nav-btn">État du rover</button>
+                <button class="nav-btn">Environnement</button>
+            </nav>
+        </header>
+
+        <div class="batteries">
+            <div class="battery battery1">
+                <h2>Batterie 1</h2>
+                <div class="battery-status">
+                    <div class="battery-icon full"></div>
+                    <div class="battery-info">
+                        <p>94/100%</p>
+                        <p>12H40Min</p>
+                        <p>Charge restante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="battery battery2">
+                <h2>Batterie 2</h2>
+                <div class="battery-status">
+                    <div class="battery-icon charging"></div>
+                    <div class="battery-info">
+                        <p>32/100%</p>
+                        <p>2H20Min</p>
+                        <p>En charge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="camera-feeds">
+            <div class="camera cam1">
+                <div class="cam-header">
+                    <span class="red-dot"></span>
+                    <h3>CAM1</h3>
+                </div>
+                <img src="cam1.jpg" alt="Camera 1 Feed">
+            </div>
+            <div class="camera cam2">
+                <div class="cam-header">
+                    <span class="red-dot"></span>
+                    <h3>CAM2</h3>
+                </div>
+                <img src="cam2.jpg" alt="Camera 2 Feed">
+            </div>
+            <div class="camera cam3">
+                <div class="cam-header">
+                    <span class="red-dot"></span>
+                    <h3>CAM3</h3>
+                </div>
+                <img src="cam3.jpg" alt="Camera 3 Feed">
+            </div>
+        </div>
+
+        <div class="missions">
+            <div class="completed-missions">
+                <h2>Missions Accomplies</h2>
+                <div class="mission">
+                    <p>Réparation ARM4</p>
+                    <p>BRAS ROBOTIQUE</p>
+                    <p>13h11 22/07</p>
+                </div>
+                <div class="mission">
+                    <p>Réparation WHL3</p>
+                    <p>ROUE ARMATURE 3</p>
+                    <p>04h45 20/07</p>
+                </div>
+                <div class="mission">
+                    <p>Assistance CAM3</p>
+                    <p>08h39 09/07</p>
+                </div>
+            </div>
+            <div class="ongoing-missions">
+                <h2>Missions en Cours</h2>
+                <div class="mission">
+                    <p>Température WHL3</p>
+                    <p>ROUE ARMATURE 3</p>
+                    <p>--h--/--</p>
+                </div>
+                <div class="mission">
+                    <p>Luminosité CAM2</p>
+                    <p>LUM CAMERA 2</p>
+                    <p>--h--/--</p>
+                </div>
+                <div class="mission">
+                    <p>Température CAM1</p>
+                    <p>--h--/--</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

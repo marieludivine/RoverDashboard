@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2A0E0E;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    background-color: #4E2626;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.batteries {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.battery {
+    background-color: #3B1616;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.battery-status {
+    display: flex;
+    align-items: center;
+}
+
+.battery-icon {
+    width: 50px;
+    height: 100px;
+    background-color: #4E4E4E;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.battery-icon.full {
+    background-color: #00FF00;
+}
+
+.battery-icon.charging {
+    background-color: #FF9900;
+}
+
+.battery-info p {
+    margin: 5px 0;
+}
+
+.camera-feeds {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.camera {
+    flex: 1;
+    background-color: #3B1616;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cam-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.red-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.missions {
+    display: flex;
+    gap: 20px;
+}
+
+.completed-missions, .ongoing-missions {
+    flex: 1;
+    background-color: #3B1616;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mission {
+    margin-bottom: 10px;
+}
+
+.mission p {
+    margin: 5px 0;
+}
